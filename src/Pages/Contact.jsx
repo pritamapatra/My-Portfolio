@@ -17,7 +17,7 @@ export default function Contact() {
         <p className="text-lg text-gray-300 mb-4">Feel free to reach out via phone or email!</p>
         <p className="text-2xl font-semibold text-white">📞 +91 6370777276</p>
         <p className="text-2xl font-semibold text-white mt-2">
-          📧 <a href="mailto:your@email.com" className="underline hover:text-gray-300">your@email.com</a>
+          📧 <a href="mailto:pritampatra1141@gmail.com" className="underline hover:text-gray-300">pritampatra1141@gmail.com</a>
         </p>
       </div>
 
@@ -26,28 +26,28 @@ export default function Contact() {
         <p className="text-gray-400">Connect with me on:</p>
         <div className="flex space-x-6 justify-center mt-4">
           <a
-            href="https://www.linkedin.com/in/your-linkedin-profile"
+            href="https://www.linkedin.com/in/pritampatra6370777276/"
             target="_blank"
             className="text-gray-300 hover:text-blue-500 transition duration-300 text-3xl"
           >
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/your-github-profile"
+            href="https://github.com/pritamapatra"
             target="_blank"
             className="text-gray-300 hover:text-gray-500 transition duration-300 text-3xl"
           >
             <FaGithub />
           </a>
           <a
-            href="https://x.com/your-twitter-profile"
+            href="https://x.com/PritamP47070802"
             target="_blank"
             className="text-gray-300 hover:text-blue-400 transition duration-300 text-3xl"
           >
             <FaTwitter />
           </a>
           <a
-            href="https://www.instagram.com/your-instagram-profile"
+            href="https://www.instagram.com/prie_tam_tam/"
             target="_blank"
             className="text-gray-300 hover:text-pink-500 transition duration-300 text-3xl"
           >
