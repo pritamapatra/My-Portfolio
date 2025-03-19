@@ -21,10 +21,22 @@ export default function Home() {
             className="rounded-full border-4 border-gray-300 shadow-lg"
           />
         </div>
+        {/* Intro */}
+        <h1 className="text-4xl font-bold mb-4 mt-3">Pritam Patra</h1>
+        <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6">
+  I'm a <strong className="text-orange-400">Tech Enthusiast</strong> | A <strong className="text-orange-400">Web Developer</strong> with expertise in <strong className="text-orange-400">AI/ML</strong> & <strong className="text-orange-400">Deep Learning</strong> as well as <strong className="text-orange-400">UI/UX Designer</strong>.
+  I am a passionate and versatile software developer with expertise in Web Development, AI/ML, Deep Learning, and UI/UX Design. I love tackling real-world challenges through innovation and technology.
+</p>
 
-        <h1 className="text-4xl font-bold mt-4">Welcome to My Portfolio</h1>
-        <p className="mt-4 text-lg text-gray-300">
-          I am a passionate developer who loves to build amazing web experiences.
+
+        <p className="text-lg mb-6">
+             Notable Projects & Achievements:
+            <br/>
+            Built a Deepfake Detection System using CNN & RNN (Presented at SIH’24 Finals)
+            <br/>
+            Proficient in ReactJS, Tailwind CSS, OpenCV, Flask, PostgreSQL, Docker
+             <br/>
+            Designed intuitive UI/UX solutions using Figma & Responsive Web Design
         </p>
         <div className="mt-6">
           <Link
@@ -34,6 +46,19 @@ export default function Home() {
             View My Work
           </Link>
         </div>
+        <p className="text-lg mb-6 mt-6">
+        What Drives Me?
+          <br/>
+           Solving complex problems with tech
+           <br/>
+           Creating impactful, user-centric designs
+           <br/>
+          Learning & collaborating with like-minded individuals
+        </p>
+
+       <p className="text-lg mb-6">
+       Let’s Connect!
+       </p>
       </div>
     </main>
   );

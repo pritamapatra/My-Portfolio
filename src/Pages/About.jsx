@@ -33,7 +33,7 @@ export default function About() {
        
 
       {/* Page Content */}
-      <h1 className="text-5xl font-bold text-center mb-8">About Me</h1>
+      <h1 className="text-5xl font-bold text-center mb-8">My Skills and Experiences</h1>
 
      {/* Skills Section */}
      <section className="mb-12">
