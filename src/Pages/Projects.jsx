@@ -3,23 +3,41 @@ import ProjectCard from '../components/ProjectCard';
 
 const projects = [
   {
-    title: "Detectify",
-    description: "A deepfake detection platform with AI-powered analysis.",
-    tech: ["Next.js", "Tailwind CSS", "Flask", "PostgreSQL"],
+    title: "Analyzing Medical Images using Deep Learning Algorithms",
+    description: "",
+    tech: ["Deep Learning", "Machine Learning", "Explainable AI (XAI)", "Feature Engineering"],
     link: "/",
-  },
-  {
-    title: "Alumni Network",
-    description: "A web portal for BIT Sindri alumni networking.",
-    tech: ["Next.js", "MongoDB", "Node.js", "Tailwind"],
-    link: "/",
+    status: "On-going", // Add status here
   },
   {
     title: "Coding Community Portal",
     description: "An interactive platform for coders to collaborate and learn.",
     tech: ["React", "Firebase", "Express.js"],
-    link: "/",
+    link: "",
+    status: "On-going", // Add status here
   },
+  {
+    title: "Detectify: Deepfake Detection Platform",
+    description: "A deepfake detection platform with AI-powered analysis.",
+    tech: ["Next.js", "Tailwind CSS", "Flask", "PostgreSQL"],
+    link: "/",
+    status: "Completed", // Add status here
+  },
+  {
+    title: "Alumni Network",
+    description: "A web portal for BIT Sindri alumni networking.",
+    tech: ["Next.js", "MongoDB", "Node.js", "Tailwind"],
+    link: "https://bitsindrialumniconnect.netlify.app/",
+    status: "Completed", // Add status here
+  },
+  {
+    title: "Personal Portfolio Website",
+    description: "",
+    tech: ["React.js", "Tailwind", "React Router", "Netlify"],
+    link: "",
+    status: "Completed", // Add status here
+  },
+  
 ];
 
 export default function Projects() {

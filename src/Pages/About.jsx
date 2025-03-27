@@ -54,6 +54,11 @@ export default function About() {
       <section className="mb-12">
         <h2 className="text-3xl font-bold mb-4 text-center">Experience</h2>
         <div className="space-y-6 ">
+        <div className="bg-black border border-white hover:bg-gray-700 transition duration-300 p-8 px-10 rounded-lg shadow-md mx-4">
+            <h3 className="text-xl font-semibold">Undergraduate Research Assistant @MIT, Manipal</h3>
+            <p className="text-gray-400">2025 February- Present</p>
+            <p>Project: Analyzing medical images using deep learning algorithms</p>
+          </div>
           <div className="bg-black border border-white hover:bg-gray-700 transition duration-300 p-8 px-10 rounded-lg shadow-md mx-4">
             <h3 className="text-xl font-semibold">SDE Intern @Instrumus</h3>
             <p className="text-gray-400">2025 February- Present</p>

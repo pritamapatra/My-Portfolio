@@ -50,32 +50,8 @@ export default function Blog() {
 
       {/* Main Content Layout */}
       <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between w-full max-w-6xl gap-12">
-        {/* Blog Content on the Left */}
-        <div className="w-full lg:w-1/2 space-y-8">
-          {/* Day 1 Section */}
-          <div className="bg-black p-6 border border-white rounded-lg shadow-lg">
-            <h2 className="text-3xl font-bold">Day 1: The Beginning</h2>
-            <p className="text-gray-400 mt-4">
-              The excitement kicked in as we arrived at the hackathon venue.
-              The problem statement was intense, and we had to strategize our
-              approach. First interactions with mentors set the pace for an
-              incredible journey ahead!
-            </p>
-          </div>
 
-          {/* Day 2 Section */}
-          <div className="bg-black p-6 border border-white rounded-lg shadow-lg">
-            <h2 className="text-3xl font-bold">Day 2: The Final Push</h2>
-            <p className="text-gray-400 mt-4">
-              Time was running out as we worked relentlessly to perfect our
-              solution. The final pitch to the judges was nerve-wracking but
-              rewarding. The feedback we received shaped our understanding of
-              innovation and problem-solving.
-            </p>
-          </div>
-        </div>
-
-        {/* Image Carousel on the Right */}
+        {/* Image Carousel on the Left */}
         <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-end relative">
           <div className="relative w-full max-w-3xl overflow-hidden rounded-lg shadow-lg ">
             {/* Images Wrapper */}
@@ -115,6 +91,33 @@ export default function Blog() {
 
          
         </div>
+
+        {/* Blog Content on the right */}
+        <div className="w-full lg:w-1/2 space-y-8">
+          {/* Day 1 Section */}
+          <div className="bg-black p-6 border border-white rounded-lg shadow-lg">
+            <h2 className="text-3xl font-bold">Day 1: The Beginning</h2>
+            <p className="text-gray-400 mt-4">
+              The excitement kicked in as we arrived at the hackathon venue.
+              The problem statement was intense, and we had to strategize our
+              approach. First interactions with mentors set the pace for an
+              incredible journey ahead!
+            </p>
+          </div>
+
+          {/* Day 2 Section */}
+          <div className="bg-black p-6 border border-white rounded-lg shadow-lg">
+            <h2 className="text-3xl font-bold">Day 2: The Final Push</h2>
+            <p className="text-gray-400 mt-4">
+              Time was running out as we worked relentlessly to perfect our
+              solution. The final pitch to the judges was nerve-wracking but
+              rewarding. The feedback we received shaped our understanding of
+              innovation and problem-solving.
+            </p>
+          </div>
+        </div>
+
+        
       </div>
     </main>
   );
