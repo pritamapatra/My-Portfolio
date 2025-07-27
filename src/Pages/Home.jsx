@@ -23,20 +23,16 @@ export default function Home() {
         </div>
         {/* Intro */}
         <h1 className="text-4xl font-bold mb-4 mt-3">Pritam Patra</h1>
-        <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6">
-  I'm a <strong className="text-orange-400">Tech Enthusiast</strong> | A <strong className="text-orange-400">Web Developer</strong> with expertise in <strong className="text-orange-400">AI/ML</strong> & <strong className="text-orange-400">Deep Learning</strong> as well as <strong className="text-orange-400">UI/UX Designer</strong>.
-  I am a passionate and versatile software developer with expertise in Web Development, AI/ML, Deep Learning, and UI/UX Design. I love tackling real-world challenges through innovation and technology.
+        <p className="w-full px-2 text-base sm:text-lg md:text-xl lg:text-xl mb-6">
+  Experienced Automation and Agentic AI specializing in architecting end-to-end workflow solutions with measurable impact. I design, build, and deploy intelligent automation platforms that utilize agentic AI to optimize operational efficiency.
+
+  With a hands-on approach leveraging both low-code workflow automation (n8n) and custom development (JavaScript, TypeScript, Next.js), I excel at translating complex requirements into seamless, autonomous solutions. My expertise includes integrating real-time APIs, building clean dashboards for operational insight, and creating task scheduling algorithms that adapt to dynamic business goals.
 </p>
 
 
+
         <p className="text-lg mb-6">
-             Notable Projects & Achievements:
-            <br/>
-            Built a Deepfake Detection System using CNN & RNN (Presented at SIH’24 Finals)
-            <br/>
-            Proficient in ReactJS, Tailwind CSS, OpenCV, Flask, PostgreSQL, Docker
-             <br/>
-            Designed intuitive UI/UX solutions using Figma & Responsive Web Design
+            
         </p>
         <div className="mt-6">
           <Link

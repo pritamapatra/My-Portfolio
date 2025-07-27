@@ -5,15 +5,15 @@ const projects = [
   {
     title: "Analyzing Medical Images using Deep Learning Algorithms",
     description: "",
-    tech: ["Deep Learning", "Machine Learning", "Explainable AI (XAI)", "Feature Engineering"],
+    tech: ["n8n workflow automation", "Agent AI", "NextJS", "PostgreSQL","Javascript","Tailwind CSS"],
     link: "/",
-    status: "On-going", // Add status here
+    status: "Completed", // Add status here
   },
   {
-    title: "Coding Community Portal",
-    description: "An interactive platform for coders to collaborate and learn.",
-    tech: ["React", "Firebase", "Express.js"],
-    link: "",
+    title: "Analyzing Medical Images using Deep Learning Algorithms",
+    description: "",
+    tech: ["Deep Learning", "Machine Learning", "Explainable AI (XAI)", "Feature Engineering"],
+    link: "/",
     status: "On-going", // Add status here
   },
   {
