@@ -6,21 +6,21 @@ const projects = [
     title: "Voltwise.AI | AI Agent for Dynamic Energy Savings in Dark Stores",
     description: "",
     tech: ["n8n workflow automation", "Agent AI", "NextJS", "PostgreSQL","Javascript","Tailwind CSS"],
-    link: "/",
+    link: "https://github.com/pritamapatra/Voltwise.AI",
     status: "Completed", // Add status here
   },
   {
     title: "Analyzing Medical Images using Deep Learning Algorithms",
     description: "",
     tech: ["Deep Learning", "Machine Learning", "Explainable AI (XAI)", "Feature Engineering"],
-    link: "/",
+    link: "",
     status: "On-going", // Add status here
   },
   {
     title: "Detectify: Deepfake Detection Platform",
     description: "A deepfake detection platform with AI-powered analysis.",
     tech: ["Next.js", "Tailwind CSS", "Flask", "PostgreSQL"],
-    link: "/",
+    link: "https://github.com/sha-shanks/detectify",
     status: "Completed", // Add status here
   },
   {
@@ -34,7 +34,7 @@ const projects = [
     title: "Personal Portfolio Website",
     description: "",
     tech: ["React.js", "Tailwind", "React Router", "Netlify"],
-    link: "",
+    link: "/",
     status: "Completed", // Add status here
   },
   
