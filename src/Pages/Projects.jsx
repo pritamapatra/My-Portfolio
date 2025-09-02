@@ -3,7 +3,7 @@ import ProjectCard from '../components/ProjectCard';
 
 const projects = [
   {
-    title: "Analyzing Medical Images using Deep Learning Algorithms",
+    title: "Voltwise.AI | AI Agent for Dynamic Energy Savings in Dark Stores",
     description: "",
     tech: ["n8n workflow automation", "Agent AI", "NextJS", "PostgreSQL","Javascript","Tailwind CSS"],
     link: "/",
