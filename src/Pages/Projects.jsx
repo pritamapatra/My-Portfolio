@@ -3,18 +3,25 @@ import ProjectCard from '../components/ProjectCard';
 
 const projects = [
   {
+    title: "TTE Management App",
+    description: "",
+    tech: ["NextJS","Tailwind CSS"],
+    link: "https://tte-app-sable.vercel.app/home",
+    status: "Completed", // Add status here
+  },
+  {
+    title: "Wind Forecast App (Open Source)",
+    description: "",
+    tech: ["NextJS","Tailwind CSS", "Python", "Pandas", "Data Science"],
+    link: "https://github.com/pritamapatra/wind-forecast-app",
+    status: "Completed", // Add status here
+  },
+  {
     title: "Voltwise.AI | AI Agent for Dynamic Energy Savings in Dark Stores",
     description: "",
     tech: ["n8n workflow automation", "Agent AI", "NextJS", "PostgreSQL","Javascript","Tailwind CSS"],
     link: "https://github.com/pritamapatra/Voltwise.AI",
     status: "Completed", // Add status here
-  },
-  {
-    title: "Analyzing Medical Images using Deep Learning Algorithms",
-    description: "",
-    tech: ["Deep Learning", "Machine Learning", "Explainable AI (XAI)", "Feature Engineering"],
-    link: "",
-    status: "On-going", // Add status here
   },
   {
     title: "Detectify: Deepfake Detection Platform",
