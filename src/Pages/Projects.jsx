@@ -4,22 +4,22 @@ import ProjectCard from '../components/ProjectCard';
 const projects = [
   {
     title: "TTE Management App (Open Source)",
-    description: " Tablet‑first TTE duty app that replaces clunky HHT workflows with fast, offline chart, berth, and verification flows, cutting errors from tiny tap targets and poor feedback in motion. Added true dark mode for overnight checks in dim coaches, improving eye comfort and readability. Led end‑to‑end UX, Next.js architecture, state management, and realistic mock data design myself.",
-    tech: ["NextJS","Tailwind CSS"],
+    description: "A tablet‑first TTE duty app that replaces clunky HHT workflows with fast, offline chart, berth, and verification flows, cutting errors from tiny tap targets and poor feedback in motion. Added true dark mode for overnight checks in dim coaches, improving eye comfort and readability. Led end‑to‑end UX, Next.js architecture, state management, and realistic mock data design myself.",
+    tech: ["NextJS", "Tailwind CSS"],
     link: "https://tte-app-sable.vercel.app/home",
     status: "Completed", // Add status here
   },
   {
-    title: "Wind Forecast App (Open Source)",
-    description: "",
-    tech: ["NextJS","Tailwind CSS", "Python", "Pandas", "Data Science"],
+    title: " GridLens | Wind Forecast App (Open Source)",
+    description: "A full‑stack Next.js app and Python analysis pipeline that exposes hidden risk in the UK’s WINDFOR model. I designed the data pipeline from raw Elexon APIs, resolved 30‑min vs hourly alignment, implemented the interactive dashboard (debounced horizon slider, Recharts visuals), and authored the Jupyter analysis proving an 80.9% over‑prediction bias and a 2,387 MW reliable wind capacity floor.",
+    tech: ["NextJS", "Tailwind CSS", "Python", "Pandas", "Data Science"],
     link: "https://github.com/pritamapatra/wind-forecast-app",
     status: "Completed", // Add status here
   },
   {
     title: "Voltwise.AI | AI Agent for Dynamic Energy Savings in Dark Stores",
     description: "",
-    tech: ["n8n workflow automation", "Agent AI", "NextJS", "PostgreSQL","Javascript","Tailwind CSS"],
+    tech: ["n8n workflow automation", "Agent AI", "NextJS", "PostgreSQL", "Javascript", "Tailwind CSS"],
     link: "https://github.com/pritamapatra/Voltwise.AI",
     status: "Completed", // Add status here
   },
