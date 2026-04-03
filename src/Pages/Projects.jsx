@@ -3,8 +3,8 @@ import ProjectCard from '../components/ProjectCard';
 
 const projects = [
   {
-    title: "TTE Management App",
-    description: "",
+    title: "TTE Management App (Open Source)",
+    description: " Tablet‑first TTE duty app that replaces clunky HHT workflows with fast, offline chart, berth, and verification flows, cutting errors from tiny tap targets and poor feedback in motion. Added true dark mode for overnight checks in dim coaches, improving eye comfort and readability. Led end‑to‑end UX, Next.js architecture, state management, and realistic mock data design myself.",
     tech: ["NextJS","Tailwind CSS"],
     link: "https://tte-app-sable.vercel.app/home",
     status: "Completed", // Add status here
